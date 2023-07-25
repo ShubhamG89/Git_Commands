@@ -1,0 +1,72 @@
+Software Company's perspective
+------------------------------
+
+
+1. prior to project award ---> internal(in-house)/external(other organisation)
+   a. EoI(Expression of Interest)(tender  notice)--> Quotes/proposals(technical, financial, duration)
+   b. nogos//project award ---> Work order  --->MoU/MoA (Memorandum of Understanding/Agreement)
+
+2. during design/dev/test (development team)
+   a. Req analysis ---> SRS
+   b. Design --->SDS --> DB/UI/Business logic --> UML Diag
+   c. Development --> User Doc+Developer doc + software (Software Engineers)
+   d. testing --->STD
+   e. Deployment
+
+3. post deployment (Operations team/ maintenance team) X months warranty free  (% of diviation is mentioned in MoA)
+   a. stackeholder/user feedback
+   b. change management
+
+4. AMC(Annual Maintenance Contract (costing)(10%-15-20% of the initial cost)
+
+Management
+----------
+
+1. review the initial proposal
+2. exucute the MoU/MoA
+3. Tacking the progress of the project
+4. tracking the finance inflow/outflow
+5. project closure
+
+
+
+
+____________________________________________________________
+
+2. during design/dev/test (development team)
+  waterfall model
+	SRS made --> Verified and accepted
+	Design doc---> verified and accepted by tech lead
+	developement
+	Testing
+	Deployment
+
+_______________________________________________________________
+
+Spiral 
+------
+System Feasibility ---> check whether the system is feasible to be completed on all aspects(Finance/timeline)
+if it is found feasible, move to second loop
+if it is not feasible, (time not feasible)---> negotiate(client/internal)SPOC--->Single Point Of Contact
+if it is not feasible, (financially not feasible)---> negotiate (Client/Internal)
+
+
+______________________________________________________________________________
+Reuse oriented model
+--------------------
+
+Creating a e-Commerce site----> online payment gateway integration--->actual payment program is executed st the bank side(web service/microservice/API).  
+
+main application is connected with many other applications to fetch/push data.
+(irctc)						(flights)---> all the connected airline systems
+sending data abt (source, dest.n, date, ....(JSON/XML))		they accept the data and filters the data at their end and returns the result(JSON/XML)
+
+accept the result coming back, show them in a user friendly manner
+
+
+
+
+
+
+
+
